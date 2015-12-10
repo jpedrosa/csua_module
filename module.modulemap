@@ -1,0 +1,5 @@
+module CSua [system] {
+    header "/usr/local/include/csua.h"
+    link "csua"
+    export *
+}
