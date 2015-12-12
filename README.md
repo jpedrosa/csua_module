@@ -5,7 +5,7 @@ This is a sister project of [Sua.](https://github.com/jpedrosa/sua_swift)
 
 This module does 2 things.
 
-1. It creates a system-wide library installed to /usr/local that helps to
+**1.** It creates a system-wide library installed to /usr/local that helps to
 map a C function called open. It is located in the csua subdirectory and is
 built with the help of CMake.
 
@@ -15,7 +15,7 @@ the open function by default as it already does on OSX. This module could become
 obsolete by then if we don't find another use for it. Then again, this module
 serves as a template for other modules that we may come up with.
 
-2. It creates a Swift module at the root directory that needs only 2 files, the
+**2.** It creates a Swift module at the root directory that needs only 2 files, the
 modulemap.module and the Package.swift files. This module calls into the library
 installed at the first step above and maps it so that other modules can call
 this library. That makes this module a very shallow one, needed only for this
