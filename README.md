@@ -16,7 +16,7 @@ obsolete by then if we don't find another use for it. Then again, this module
 serves as a template for other modules that we may come up with.
 
 **2.** It creates a Swift module at the root directory that needs only 2 files, the
-modulemap.module and the Package.swift files. This module calls into the library
+module.modulemap and the Package.swift files. This module calls into the library
 installed at the first step above and maps it so that other modules can call
 this library. That makes this module a very shallow one, needed only for this
 mapping purpose. Putting the 2 repositories together into a single project is
