@@ -6,3 +6,5 @@
 extern int csua_open(const char *path, int oflag, mode_t mode) {
   return open(path, oflag, mode);
 }
+
+extern char **environ;
